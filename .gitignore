@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Output directories
+output/
+tmp/
+debug/
+pretrained_weights/
+checkpoints/
+# Checkpoints and model weights (except for small pretrained ones)
+checkpoints/.cache/
+
+# Logs
+*.log
+*.txt
+gen_log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Keep specific checkpoint files
+!checkpoints/big-lama.pt
+!checkpoints/RealESRGAN_x2plus.pth
