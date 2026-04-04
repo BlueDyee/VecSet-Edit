@@ -84,7 +84,7 @@ parser.add_argument(
     help="Threshold percent for 2D attention",
 )
 parser.add_argument("--step_pruning", type=int, default=5, help="Pruning step interval")
-parser.add_argument("--edit_strength", type=float, default=0.7, help="Editing strength")
+parser.add_argument("--edit_strength", type=float, default=0.9, help="Editing strength")
 parser.add_argument("--guidance_scale", type=float, default=7.5, help="Guidance scale")
 args = parser.parse_args()
 
