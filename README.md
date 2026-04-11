@@ -203,17 +203,11 @@ python preserving_texture_baking.py \
 3. Applies inpainting and upscaling to preserve texture quality
 4. Outputs the final textured mesh as `mv_repaint_model.glb`
 
-## Demo Videos
+## Demos
 
-<div align="center">
-  
-https://github.com/BlueDyee/VecSetEdit/assets/demo_video.mp4
+<img width="2885" height="3350" alt="Revision_qualitative_2" src="https://github.com/user-attachments/assets/e3b55c87-dd3e-44d1-b23f-fbb70f8e6760" />
+<img width="2885" height="3350" alt="Revision_qualitative_1" src="https://github.com/user-attachments/assets/f9d3b98c-928c-4ed8-9ea3-21388b78e822" />
 
-*Example: 3D mesh editing with image-guided attention mechanisms*
-
-</div>
-
-For best viewing experience, you can also [download the demo video](./assets/demo_video.mp4) directly.
 
 ## Pretrained Weights
 
